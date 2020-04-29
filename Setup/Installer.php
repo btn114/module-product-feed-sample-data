@@ -34,17 +34,17 @@ class Installer implements Setup\SampleData\InstallerInterface
     /**
      * @var ProductFeed
      */
-    private $abandonedCart;
+    protected $productFeed;
 
     /**
      * Installer constructor.
      *
-     * @param ProductFeed $abandonedCart
+     * @param ProductFeed $productFeed
      */
     public function __construct(
-        ProductFeed $abandonedCart
+        ProductFeed $productFeed
     ) {
-        $this->abandonedCart = $abandonedCart;
+        $this->productFeed = $productFeed;
     }
 
     /**
@@ -53,7 +53,7 @@ class Installer implements Setup\SampleData\InstallerInterface
      */
     public function install()
     {
-        $this->abandonedCart->install([
+        $this->productFeed->install([
             'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_feed.csv',
             'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_history.csv'
         ]);
