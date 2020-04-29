@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header> 
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>M_SELLER_123456</MerchantIdentifier>
+  </Header> 
+  <MessageType>Inventory</MessageType>
+  <Message> 
+    
+    <MessageID>36</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-MG04]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>37</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-MG01]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>38</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-MG03]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>39</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-MG05]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>40</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-MG02]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>41</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-WG09]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>42</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-WG01]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>43</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-WG03]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+    <MessageID>44</MessageID> 
+    <OperationType>Update</OperationType>
+    <Inventory> 
+      <SKU><![CDATA[24-WG02]]></SKU> 
+      <Quantity>100.0</Quantity> 
+      <FulfillmentLatency>3</FulfillmentLatency> 
+    </Inventory>
+    
+  </Message>  
+</AmazonEnvelope>

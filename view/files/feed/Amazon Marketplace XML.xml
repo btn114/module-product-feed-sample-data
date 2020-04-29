@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header> 
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>M_SELLER_123456</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace> 
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU><![CDATA[]]></SKU>
+      <ProductTaxCode>A_GEN_TAX</ProductTaxCode>
+      <LaunchDate>2014-04-22T04:00:00</LaunchDate>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title><![CDATA[]]></Title>
+        <Brand><![CDATA[DefaultBrand]]></Brand>
+        <Description></Description>
+        <BulletPoint>Clothes</BulletPoint>
+        <ItemDimensions>
+          <Weight unitOfMeasure="LB">0</Weight>
+        </ItemDimensions>
+        <MSRP currency="CAD"> USD</MSRP>
+        <Manufacturer><![CDATA[DefaultBrand]]></Manufacturer>
+        <SearchTerms><![CDATA[]]></SearchTerms>
+        <ItemType>handmade-rugs</ItemType>
+        <OtherItemAttributes>Rectangular</OtherItemAttributes>
+        <TargetAudience>Adults</TargetAudience>
+        <TargetAudience>Children</TargetAudience>
+        <TargetAudience>Men</TargetAudience>
+        <TargetAudience>Women</TargetAudience>
+      </DescriptionData>
+      <ProductData>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>
