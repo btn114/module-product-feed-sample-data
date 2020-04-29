@@ -1,8 +1,0 @@
-"id","feed_id","feed_name","status","delivery","type","file","product_count","success_message","error_message","created_at"
-"1","1","Google Shopping XML","1","2","manual","Google Shopping XML.xml","2046","Google Shopping XML feed has been generated successfully.",,"2020-04-28 11:28:28"
-"2","1","Google Shopping XML","1","2","manual","Google Shopping XML.xml","9","Google Shopping XML feed has been generated successfully.",,"2020-04-28 11:30:07"
-"3","2","Google Shopping Review XML","1","2","manual","Google Shopping Review XML.xml","9","Google Shopping Review XML feed has been generated successfully.",,"2020-04-28 13:52:10"
-"4","3","Amazon Inventory XML","1","2","manual","Amazon Inventory XML.xml","9","Amazon Inventory XML feed has been generated successfully.",,"2020-04-28 13:52:50"
-"5","4","Amazon Marketplace XML","1","2","manual","Amazon Marketplace XML.xml","9","Amazon Marketplace XML feed has been generated successfully.",,"2020-04-28 13:53:30"
-"6","5","Facebook CSV","1","2","manual","Facebook CSV.csv","9","Facebook CSV feed has been generated successfully.",,"2020-04-28 13:54:03"
-"7","6","Ebay CSV","1","2","manual","Ebay CSV.csv","9","Ebay CSV feed has been generated successfully.",,"2020-04-28 13:54:37"

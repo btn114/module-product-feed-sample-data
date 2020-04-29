@@ -54,8 +54,7 @@ class Installer implements Setup\SampleData\InstallerInterface
     public function install()
     {
         $this->productFeed->install([
-            'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_feed.csv',
-            'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_history.csv'
+            'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_feed.csv'
         ]);
     }
 }
