@@ -130,14 +130,8 @@ class ProductFeed
             $rows = $this->csvReader->getData($file);
 
             $header = array_shift($rows);
-$writer = new \Zend\Log\Writer\Stream(BP . '/var/log/mp_test.log');
-$logger = new \Zend\Log\Logger();
-$logger->addWriter($writer);
-$logger->info('a');
             switch ($fileName) {
                 case 'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_feed.csv':
-                    $logger->info('b');
-
                     foreach ($rows as $row) {
                         $data = [];
                         foreach ($row as $key => $value) {
@@ -153,7 +147,6 @@ $logger->info('a');
                     break;
                 case 'Mageplaza_ProductFeedSampleData::fixtures/mageplaza_productfeed_history.csv':
                     foreach ($rows as $row) {
-                        $logger->info('c');
 
                         $data = [];
                         foreach ($row as $key => $value) {
